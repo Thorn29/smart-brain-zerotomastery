@@ -1,0 +1,33 @@
+.InputBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 3%;
+  box-sizing: border-box;
+}
+
+.InputBox input {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 10px;
+  background: rgba(0,0,0,.6);
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+
+.InputBox button {
+  padding: 5px 25px;
+  background: #2e3192;
+  border: 1px solid rgba(0,0,0,.4);
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.InputBox button:hover {
+  background: #1bfffe;
+  color: #000;
+}

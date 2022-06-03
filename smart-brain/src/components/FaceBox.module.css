@@ -1,0 +1,12 @@
+.FaceBox {
+  background: rgba(27,255,254, .3);
+  position: absolute;
+  border: 2px dotted #1bfffe;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.FaceBox:hover {
+    background: rgba(27,255,254, .4);
+    transform: scale(1.1);
+}

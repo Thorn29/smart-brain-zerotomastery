@@ -1,0 +1,20 @@
+.Nav {
+  display: block;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Nav p {
+  display: block;
+  height: 100%;
+  font-size: .75rem;
+  line-height: 80px;
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.Nav p:hover {
+  color: #fff;
+}
